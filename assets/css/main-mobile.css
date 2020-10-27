@@ -1,0 +1,195 @@
+@media (max-width: 1440px) {
+    .quiz {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .main {
+        background: url(../img/mobile/gold-mobile-left.jpg) left center repeat-y, url(../img/mobile/gold-mobile-right.jpg) right center repeat-y;
+        background-color: #191c1e;
+    }
+    .title {
+        font-size: 34px;
+    }
+    .container {
+        padding: 0 25px;
+    }
+    .main-text {
+        padding: 0 5px;
+        font-size: 16px;
+    }
+   .main-button {
+       width: 230px;
+   }
+   .arrows {
+       width: 320px;
+   }
+    .bottom-container {
+        flex-flow: column;
+        padding: 0 5px;
+        align-items: center;
+    }
+    .halal {
+        padding-bottom: 15px;
+    }
+    .rect {
+        padding: 10px;
+        width: 320px;
+        height: 200px;
+        font-size: 16px;
+    }
+    .image-between-rect {
+        padding-top: 40px;
+    }
+    .registration-form {
+        background: url("../img/mobile/sec-2-mobile.png");
+        background-size: cover;
+    }
+    .gold-on-people {
+        display: block;
+        position: absolute;
+        max-width: 50%;
+        top: -30px;
+        right: -2%;
+        z-index: 9;
+        transform: translateY(-50%);
+    }
+    .head-q8 {
+        padding: 25px 0;
+        z-index: 9;
+        width: 99.9%;
+    }
+    .footer-image {
+        display: none;
+    }
+    .footer-image-mobile {
+        display: block;
+    }
+
+    .content-people {
+        width: 100%;
+        margin-top: 113%;
+    }
+    .feedback {
+        padding: 5px;
+    }
+    .question {
+        padding: 10px;
+    }
+    .feedback-block {
+        align-items: center;
+    }
+    .top-question {
+        font-size: 18px;
+    }
+    .block-answer {
+        font-size: 18px;
+    }
+    .next-button {
+        font-size: 18px;
+    }
+    .content-people {
+        justify-content: center;
+    }
+}
+@media (max-width: 425px) {
+    .registration-form {
+        background: url("../img/mobile/sec-2-mobile.png") no-repeat;
+        background-size: cover;
+        background-color: black;
+    }
+    .block-answer {
+        margin: 0 10px;
+    }
+
+    .quiz-first {
+        height: auto;
+    }
+
+    .feedback {
+        margin: 0 5px;
+        padding: 5px;
+    }
+    .quiz-third {
+        height: 490px;
+    }
+    .quiz-four {
+        height: 490px;
+    }
+    .quiz-five {
+        height: 490px;
+    }
+    .quiz-six {
+        height: 490px;
+    }
+    .content-people {
+        width: 100%;
+        margin-top: 92%;
+    }
+}
+@media (min-width: 324px) and (max-width: 424px) {
+    .content-people {
+        width: 100%;
+        margin-top: 72%;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 600px) {
+    .content-people {
+        width: 100%;
+        margin-top: 92%;
+    }
+}
+@media (min-width: 601px) and (max-width: 700px) {
+    .content-people {
+        width: 100%;
+        margin-top: 92%;
+    }
+}
+@media (min-width: 701px) and (max-width: 767px) {
+    .content-people {
+        width: 100%;
+        margin-top: 112%;
+    }
+}
+@media (max-width: 375px) {
+    .quiz {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .content-people {
+        width: 100%;
+        margin-top: 71%;
+    }
+    .footer-content {
+        padding-top: 60px;
+    }
+}
+@media (max-width: 320px) {
+    .registration-form {
+        background-color: black;
+    }
+    .content-people {
+        width: 100%;
+        margin-top: 61%;
+    }
+    .footer-content {
+        padding-top: 70px;
+    }
+}
+@media (max-width: 996px) {
+    .bottom-container {
+        flex-flow: column;
+        padding: 0 5px;
+        align-items: center;
+    }
+    .halal {
+        padding-bottom: 65px;
+    }
+    .main {
+        background: url(../img/mobile/gold-mobile-left.jpg) left center repeat-y, url(../img/mobile/gold-mobile-right.jpg) right center repeat-y;
+        background-color: #191c1e;
+    }
+
+}
